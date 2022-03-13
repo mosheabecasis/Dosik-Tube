@@ -1,4 +1,5 @@
 {
+  "homepage": "https://github.com/mosheabecasis/Dosik-Tube#readme",
   "name": "dosik-tube",
   "version": "1.0.0",
   "description": "",
@@ -6,6 +7,7 @@
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.17.3",
+    "gh-pages": "^3.2.3",
     "nodemon": "^2.0.15",
     "simple-peer": "^9.11.1",
     "socket.io": "^4.4.1"
@@ -13,7 +15,7 @@
   "devDependencies": {},
   "scripts": {
     "start": "node index.js",
-		"dev": "nodemon index.js",
+    "dev": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -24,6 +26,5 @@
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/mosheabecasis/Dosik-Tube/issues"
-  },
-  "homepage": "https://github.com/mosheabecasis/Dosik-Tube#readme"
+  }
 }
